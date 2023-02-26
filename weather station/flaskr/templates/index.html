@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Page</title>
+	<style>
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+		img {
+			max-width: 100%;
+			display: block;
+			margin: 0 auto;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Weather Station</h1>
+	</header>
+	<img src="/static/images/DailyReadings.jpg" alt="Graph">
+	<script>
+        setTimeout(function(){
+            location.reload();
+        }, 1000*60); // Reload the page every minute
+    </script>
+</body>
+</html>
